@@ -1,6 +1,6 @@
 name: Java CI
 
-on: workflow_run
+on: check_run
 
 jobs:
   build:
