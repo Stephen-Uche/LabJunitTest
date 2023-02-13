@@ -1,4 +1,8 @@
-package com.example;
+package com.example.employment;
+
+import com.example.banks.BankService;
+import com.example.employment.Employee;
+import com.example.employment.EmployeeRepository;
 
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package com.example;
+package com.example.employment;
+
+import com.example.employment.Employee;
 
 import java.util.List;
 

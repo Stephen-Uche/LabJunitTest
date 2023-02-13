@@ -1,4 +1,7 @@
-package com.example;
+package com.example.employment;
+
+import com.example.employment.Employee;
+import com.example.employment.EmployeeRepository;
 
 import java.util.ArrayList;
 import java.util.List;

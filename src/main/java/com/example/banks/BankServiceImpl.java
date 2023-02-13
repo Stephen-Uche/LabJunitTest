@@ -1,4 +1,6 @@
-package com.example;
+package com.example.banks;
+
+import com.example.banks.BankService;
 
 public class BankServiceImpl implements BankService {
     boolean isPaid = false;

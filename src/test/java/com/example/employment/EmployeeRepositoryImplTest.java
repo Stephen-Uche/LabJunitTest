@@ -1,5 +1,7 @@
-package com.example;
+package com.example.employment;
 
+import com.example.employment.Employee;
+import com.example.employment.EmployeeRepositoryImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
