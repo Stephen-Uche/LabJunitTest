@@ -1,4 +1,8 @@
 package com.example.gaming;
 
-public class GameTDD {
+class GameTDD {
+    int spare;
+
+    void roll(int pinn) {
+    }
 }
