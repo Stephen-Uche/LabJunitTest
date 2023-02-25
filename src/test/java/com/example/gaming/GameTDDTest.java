@@ -22,10 +22,12 @@ class GameTDDTest {
         //Given
         gameTDD.roll(2);
         gameTDD.roll(8);
-
-         //When
-
+        //When
         //Then
         assertEquals(1, gameTDD.spare = 1);
+    }
+    @Test
+    void strikeIsToKnockDownAllPinsWithOneRolls() {
+
     }
 }
