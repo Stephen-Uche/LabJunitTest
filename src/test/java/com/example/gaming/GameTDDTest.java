@@ -18,16 +18,13 @@ class GameTDDTest {
 
     @Test
     void spareIsToKnockDownAllPinsWithTwoRolls() {
-
-        //Given
         gameTDD.roll(2);
         gameTDD.roll(8);
-        //When
-        //Then
         assertEquals(1, gameTDD.spare = 1);
     }
     @Test
     void strikeIsToKnockDownAllPinsWithOneRolls() {
-
+        gameTDD.roll(10);
+        assertEquals(1, gameTDD.strike = 1);
     }
 }
